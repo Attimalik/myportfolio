@@ -1,0 +1,175 @@
+@font-face {
+    font-family: 'optima';
+    src: url("OPTIMA.TTF") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+.main-div{
+    display: flex;
+
+}
+
+body {
+    font-family: 'optima';
+}
+
+.header-link-style {
+    display: flex; 
+    align-items: center;  
+    gap: 40px; 
+}
+.logo-section {
+    padding: 2px 5%; 
+    width: auto;
+     height: 60px; 
+     display: flex; 
+     justify-content: space-between; 
+     background-color: #073A37;
+}
+.spec-main-div {
+    display: flex;
+    justify-content: center;
+}
+.header-link {
+    padding: 5PX;
+    text-decoration: none;
+    font-size: 13PX;
+    color: white;
+   
+ }
+ .header-button {
+     padding: 5px;
+     background-color: #dad726;
+     border: none;
+     color: white;
+     text-align: center;
+     text-decoration: none;
+     display: inline-block;
+     font-size: 12px;
+     margin-top: 10px;
+     cursor: pointer;
+ }
+ p {
+     font-size: 11px;
+ }
+
+ .headerbutton{
+        background-color: transparent;
+        border: 2px solid #BF9626; /* Border style, color, and width */
+        color: #BF9626; /* Text color */
+        padding: 10px 20px; /* Padding */
+        font-size: 16px; /* Font size */
+        cursor: pointer;
+        transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out, border-color 0.3s ease-in-out; /* Transition effect */
+    
+ }
+
+ .rounded-div {
+   
+     border: 0.3px solid #333; 
+  
+    border-radius: 8px; /* Border radius to make it rounded */
+    /* Padding inside the div */
+    /* Center-align text inside the div */
+}
+
+
+.text-color {
+    color: white;
+}
+
+.linkicon-style {
+    width: 20px;
+    height: 20px;
+    color: white;
+}
+input{
+    background-color: rgb(237, 242, 243); /* Change the background color */
+    padding: 10px; /* Add padding for better visual appearance */
+    border: none; /* Optionally remove the border */
+    border-radius: 6px; /* Optionally add border-radius for rounded corners */
+}
+
+.chclass {
+    width: 250px;
+    height:400px;
+    background-color:#F5F6F6 ;
+    margin: 3px;
+    text-align: center;
+}
+
+.def{
+    color: white;
+    padding: 5PX;
+    text-decoration: none;
+    font-size: 11PX;
+}
+
+.more-devep-work-images {
+    width:250px; 
+    height:250px; 
+    margin: 3px;
+}
+
+.view-more-button {
+    font-size: 10px; 
+    height: 30px; 
+    font-weight: bold;
+     margin: 10px;
+}
+.vertical-line {
+    text-align: center;
+    width: 1px;
+    height: 40px; /* Height of the vertical line */
+    background-color: black; /* Color of the line */
+    margin: auto; /* Adjust the margin to separate the line from the divs */
+  }
+.development-images-style {
+    width:19.7%; 
+    height:190px; 
+    margin: 0.1px;
+}
+
+.promicing-location {
+    color: #00797B; 
+    font-weight: 400;
+}
+
+.outline-button {
+    border: 2px solid white; /* Outline border color */
+    border-radius: 2px; /* Rounded corners */
+    padding: 10px 15px; /* Padding */
+    background-color: transparent; /* Transparent background */
+    color: white; /* Text color */
+    font-size: 14px; /* Font size */
+    cursor: pointer; /* Cursor on hover */
+    display: inline-flex; /* Display as flex container */
+    align-items: center; /* Align items vertically */
+  }
+
+  /* Style for the icon */
+  .button-icon {
+    margin-right: 5px;
+     /* Margin between icon and text */
+  }
+
+  .Location-distance{
+    font-size: 14px;
+    text-align: center;
+   
+  }
+
+  .lorem-center {
+    font-weight: 200;
+    font-size: 14px;
+  }
+
+ .icon-style-left {
+    font-size: 20px;
+   padding: 8px;
+ }
+ .icon-style-right {
+    font-size: 16px;
+   
+ }
